@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SharePoint - Dark Theme Shell Fix
 // @namespace    https://texomans.com/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Fixes Microsoft's bright SharePoint app-bar shell for dark themes.
 // @match        https://*.sharepoint.com/*
 // @updateURL    https://raw.githubusercontent.com/texomans/TamperMonkey-Other/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
@@ -49,7 +49,7 @@
 
 
         /* =========================================================
-           PORTAL-SLOT AREA
+           THE STUBBORN PORTAL-SLOT AREA
            ========================================================= */
 
         #spAppBarPortalSlot,

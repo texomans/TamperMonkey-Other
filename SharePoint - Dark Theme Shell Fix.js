@@ -4,8 +4,8 @@
 // @version      1.0.0
 // @description  Fixes Microsoft's bright SharePoint app-bar shell for dark themes.
 // @match        https://*.sharepoint.com/*
-// @updateURL    https://raw.githubusercontent.com/texomans/TamperMonkeyOther/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
-// @downloadURL  https://raw.githubusercontent.com/texomans/TamperMonkeyOther/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
+// @updateURL    https://raw.githubusercontent.com/texomans/TamperMonkey-Other/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
+// @downloadURL  https://raw.githubusercontent.com/texomans/TamperMonkey-Other/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
 // @run-at       document-start
 // ==/UserScript==
 

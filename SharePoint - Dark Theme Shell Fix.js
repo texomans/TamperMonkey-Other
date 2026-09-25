@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SharePoint - Dark Theme Shell Fix
 // @namespace    https://texomans.com/
-// @version      1.0.1
+// @version      1.0.0
 // @description  Fixes Microsoft's bright SharePoint app-bar shell for dark themes.
 // @match        https://*.sharepoint.com/*
 // @updateURL    https://raw.githubusercontent.com/texomans/TamperMonkey-Other/main/SharePoint%20-%20Dark%20Theme%20Shell%20Fix.js
@@ -24,6 +24,21 @@
     const style = document.createElement('style');
 
     style.textContent = `
+
+        /* =========================================================
+           OUTER SHAREPOINT PAGE SHELL
+           ========================================================= */
+
+        html,
+        body,
+        #SPPageChrome,
+        #spPageChromeAppDiv,
+        .SPPageChrome-app,
+        .spAppAndPropertyPanelContainer {
+            background: ${DARK} !important;
+            background-color: ${DARK} !important;
+        }
+
 
         /* =========================================================
            SHAREPOINT APP BAR ROOT
